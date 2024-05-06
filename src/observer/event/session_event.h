@@ -24,7 +24,7 @@ class Communicator;
 
 /**
  * @brief 表示一个SQL请求
- *
+ * @ingroup SQLStage
  */
 class SessionEvent
 {

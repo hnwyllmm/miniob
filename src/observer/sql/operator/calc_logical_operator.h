@@ -19,8 +19,7 @@ See the Mulan PSL v2 for more details. */
 #include "sql/operator/logical_operator.h"
 
 /**
- * @brief 逻辑算子描述当前执行计划要做什么
- * @details 可以看OptimizeStage中相关的代码
+ * @brief CALC逻辑算子
  */
 class CalcLogicalOperator : public LogicalOperator
 {

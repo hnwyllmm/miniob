@@ -24,6 +24,7 @@ class ParsedSqlNode;
 
 /**
  * @brief 与SessionEvent类似，也是处理SQL请求的事件，只是用在SQL的不同阶段
+ * @ingroup SQLStage
  */
 class SQLStageEvent
 {

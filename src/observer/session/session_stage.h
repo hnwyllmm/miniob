@@ -21,7 +21,7 @@ See the Mulan PSL v2 for more details. */
 #include "sql/query_cache/query_cache_stage.h"
 
 /**
- * @brief SEDA处理的stage
+ * @brief SQL 处理的各个步骤
  * @defgroup SQLStage
  * @details 收到的客户端请求会放在SEDA框架中处理，每个stage都是一个处理阶段。
  * 当前的处理流程可以通过observer.ini配置文件查看。

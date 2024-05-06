@@ -24,6 +24,8 @@ class Expression;
 
 /**
  * @defgroup SQLParser SQL Parser
+ * @brief SQL 解析器
+ * @details SQL 解析器，解析SQL语句，生成语法树。
  */
 
 /**

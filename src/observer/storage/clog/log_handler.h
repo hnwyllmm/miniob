@@ -24,6 +24,8 @@ See the Mulan PSL v2 for more details. */
 
 /**
  * @defgroup CLog commit log/redo log
+ * @brief 事务日志模块
+ * @details CLog模块负责日志的写入、读取、回放等功能。
  */
 
 class LogReplayer;
