@@ -409,7 +409,9 @@ LIMIT 示例：
 select * from t,t1 where t.id=t1.id order by t.id asc limit 10;
 ```
 
-**提示**：ORDER BY 与 LIMIT 算子需要参考 GROUP BY 算子的实现，也可参考 `docs/docs/design/miniob-how-to-add-new-sql.md` 中关于如何添加新的 SQL 语法的文档，实现 `ORDER BY` 子句和 `LIMIT` 子句。
+**提示**：
+- ORDER BY 与 LIMIT 算子需要参考 GROUP BY 算子的实现，也可参考 `docs/docs/design/miniob-how-to-add-new-sql.md` 中关于如何添加新的 SQL 语法的文档，实现 `ORDER BY` 子句和 `LIMIT` 子句。
+- 这里考察的 limit 只有一个参数，不需要考虑 limit a, b 的场景。
 
 #### 测试
 
